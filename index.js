@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 const navbar = (
   <nav>
@@ -11,3 +11,6 @@ const navbar = (
     </ul>
   </nav>
 );
+
+// ReactDOM.render(navbar, document.getElementById("root"))
+ReactDOM.createRoot(document.getElementById("root")).render(navbar);
