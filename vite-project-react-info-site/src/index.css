@@ -115,4 +115,8 @@ ul li {
   nav > h4 {
     align-self: flex-end;
   }
+
+  ul > li {
+    margin-left: 4%;
+  }
 }
