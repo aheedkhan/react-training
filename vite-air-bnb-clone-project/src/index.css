@@ -24,7 +24,9 @@ section {
   display: flex;
   flex-direction: column;
 }
-
+.grey {
+  color: grey;
+}
 .section1--heading {
   font-size: 582%;
 }
