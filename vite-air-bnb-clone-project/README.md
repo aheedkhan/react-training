@@ -2,4 +2,4 @@
 
 for live preview https://airnbnb-by-aheed.vercel.app/
 
-project under development :)
+Fully Developed :D
