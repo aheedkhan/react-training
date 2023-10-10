@@ -47,7 +47,7 @@ nav {
 }
 
 .nav--logo {
-  animation: spin 4s linear infinite;
+  animation: spin 20s linear infinite;
 }
 
 @keyframes spin {
