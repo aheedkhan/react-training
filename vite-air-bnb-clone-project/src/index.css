@@ -24,14 +24,18 @@ section {
   display: flex;
   flex-direction: column;
 }
+.section1--image {
+  align-self: center;
+  width: 80%;
+}
 .gray {
   color: gray;
 }
 .section1--heading {
-  font-size: 582%;
+  font-size: 500%;
 }
 .section1--para {
-  font-size: 289%;
+  font-size: 230%;
 
   /* padding-right: 30%; */
   margin: 0;
@@ -40,7 +44,7 @@ section {
 
 @media only screen and (max-width: 768px) {
   .section1--heading {
-    font-size: 350%;
+    font-size: 300%;
     text-align: center;
   }
   .section1 {
@@ -61,6 +65,7 @@ section {
     margin: auto;
     padding-left: 0%;
     width: 100%;
+    font-size: 190%;
   }
 }
 .cards-list {
