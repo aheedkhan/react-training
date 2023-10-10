@@ -24,7 +24,7 @@ section {
   display: flex;
   flex-direction: column;
 }
-.grey {
+.gray {
   color: gray;
 }
 .section1--heading {
