@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from "/src/images/photo-grid.png";
+import Grid from "/public/images/photo-grid.png";
 
 export default function Section1() {
   return (
