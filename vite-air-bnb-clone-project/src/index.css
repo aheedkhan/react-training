@@ -27,15 +27,19 @@ section {
 .section1--image {
   align-self: center;
   width: 80%;
+  margin-bottom: 40px;
 }
 .gray {
   color: gray;
 }
 .section1--heading {
   font-size: 500%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .section1--para {
   font-size: 230%;
+  margin-bottom: 30px;
 
   /* padding-right: 30%; */
   margin: 0;
