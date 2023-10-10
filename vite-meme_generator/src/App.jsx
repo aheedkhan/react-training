@@ -21,7 +21,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>This project is Under Development :D</p>
+        <p>Meme Generator is Under Development :D</p>
       </div>
       <p>By Aheed Tahir {" <3 "}</p>
     </>
