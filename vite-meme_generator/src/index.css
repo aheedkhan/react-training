@@ -1,0 +1,13 @@
+nav {
+  height: 67px;
+  display: flex;
+  background-color: #672280;
+}
+
+.nav--image {
+  height: 100%;
+}
+
+.nav--title {
+  margin-right: auto;
+}
