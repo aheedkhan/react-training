@@ -11,7 +11,7 @@ main {
   padding: 36px;
 }
 
-nav {
+.header {
   display: flex;
   align-items: center;
   height: 65px;
@@ -20,17 +20,17 @@ nav {
   padding: 20px;
 }
 
-.nav--image {
+.header--image {
   height: 100%;
   margin-right: 6px;
 }
 
-.nav--title {
+.header--title {
   font-size: 1.25rem;
   margin-right: auto;
 }
 
-.nav--content {
+.header--project {
   font-size: 0.75rem;
   font-weight: 500;
 }
@@ -39,6 +39,7 @@ nav {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  margin-bottom: 17px;
 }
 
 .form--input {
@@ -54,10 +55,44 @@ nav {
   border-radius: 5px;
   background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
   color: white;
-  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .meme--image {
   max-width: 100%;
-  border-radius: 4px;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
